@@ -1,5 +1,8 @@
 # PyPortable Installer
 
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/d929d0dc-f63a-4dcf-b16c-7f457fb5d7f9" />
+
+
 Uma ferramenta CLI e biblioteca Python para baixar, configurar e gerenciar instalações do Python Portable (Embeddable) automaticamente. Ideal para criar ambientes Python isolados para distribuição sem necessidade de instalação administrativa.
 
 ## Funcionalidades
