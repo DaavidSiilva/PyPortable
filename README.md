@@ -55,7 +55,7 @@ pyportable 3.12
 Você pode usar o pacote em seus próprios scripts de automação:
 
 ```python
-from pyportable_installer.cli import main
+from pyportable.cli import main
 
 # Exemplo de chamada direta (simulando argumentos)
 import sys
@@ -67,7 +67,7 @@ main()
 
 ## Estrutura do Projeto
 
-- `pyportable_installer/`: Código fonte do pacote.
+- `pyportable/`: Código fonte do pacote.
   - `cli.py`: Lógica principal e interface de linha de comando.
   - `config.py`: Definições de versões e URLs.
 - `setup.py`: Script de instalação legado/compatibilidade.

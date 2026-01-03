@@ -1,18 +1,17 @@
 from setuptools import setup, find_packages
 
-# Read README for long description
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="pyportable-installer",
+    name="PyPortable",
     version="0.1.0",
     author="David Silva",
     author_email="david.emery.silva@gmail.com",
     description="A CLI tool to download and configure Portable Python (Embedded) automatically.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/your-username/your-repo",
+    url="https://github.com/DaavidSiilva/PyPortable",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -26,7 +25,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "pyportable=pyportable_installer.cli:main",
+            "pyportable=pyportable.cli:main",
         ],
     },
     include_package_data=True,
