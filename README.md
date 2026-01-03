@@ -11,7 +11,15 @@ Uma ferramenta CLI e biblioteca Python para baixar, configurar e gerenciar insta
 
 ## Instalação
 
-### Via Código Fonte (Desenvolvimento)
+## Instalação
+
+Instale diretamente do PyPI:
+
+```bash
+pip install pyportable
+```
+
+### Instalação Local (Desenvolvimento)
 
 1. Clone o repositório.
 2. No diretório raiz, execute:
@@ -20,17 +28,15 @@ Uma ferramenta CLI e biblioteca Python para baixar, configurar e gerenciar insta
 pip install .
 ```
 
-Ou para instalação editável:
-
-```bash
-pip install -e .
-```
-
 ## Uso
 
 ### Como CLI
 
-Após instalar, o comando `pyportable` estará disponível no terminal.
+Após instalar, o comando `pyportable` estará disponível no seu terminal (CMD, PowerShell ou Bash).
+
+1. Abra o prompt de comando (CMD) ou PowerShell.
+2. Navegue até a pasta onde deseja criar o ambiente Python.
+3. Execute os comandos abaixo:
 
 **Listar versões disponíveis:**
 
@@ -49,21 +55,6 @@ pyportable latest
 ```bash
 pyportable 3.12
 ```
-
-### Como Biblioteca
-
-Você pode usar o pacote em seus próprios scripts de automação:
-
-```python
-from pyportable.cli import main
-
-# Exemplo de chamada direta (simulando argumentos)
-import sys
-sys.argv = ["pyportable", "latest"]
-main()
-```
-
-(Futuras versões podem expor uma API mais programática).
 
 ## Estrutura do Projeto
 
