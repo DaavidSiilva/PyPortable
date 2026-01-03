@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyportable-installer"
+version = "0.1.0"
+description = "A CLI tool to download and configure Portable Python (Embedded) automatically."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "David Silva", email = "david.emery.silva@gmail.com"}
+]
+dependencies = [
+    "requests>=2.0.0",
+    "rich>=10.0.0",
+]
+
+[project.scripts]
+pyportable = "pyportable_installer.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
