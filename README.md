@@ -14,8 +14,6 @@ Uma ferramenta CLI e biblioteca Python para baixar, configurar e gerenciar insta
 
 ## Instalação
 
-## Instalação
-
 Instale diretamente do PyPI:
 
 ```bash

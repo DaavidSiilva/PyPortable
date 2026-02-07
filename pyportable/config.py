@@ -1,6 +1,11 @@
 GET_PIP_URL = "https://bootstrap.pypa.io/get-pip.py"
 
-AVAILABLE_VERSIONS = {
+AVAILABLE_VERSIONS = {  
+    "3.15": {
+        "description": "Python 3.15.0a5 (Pre-release)",
+        "version": "3.15.0a5",
+        "url": "https://www.python.org/ftp/python/3.15.0/python-3.15.0a5-embed-amd64.zip"
+    },
     "3.14": {
         "description": "Python 3.14.2 (Latest)",
         "version": "3.14.2",
@@ -20,7 +25,12 @@ AVAILABLE_VERSIONS = {
         "description": "Python 3.11.9 (Old Stable)",
         "version": "3.11.9",
         "url": "https://www.python.org/ftp/python/3.11.9/python-3.11.9-embed-amd64.zip"
-    }
+    },
+    "3.10": {
+        "description": "Python 3.10.7 (Old Stable)",
+        "version": "3.10.7",
+        "url": "https://www.python.org/ftp/python/3.10.7/python-3.10.7-embed-amd64.zip"
+    },
 }
 
 AVAILABLE_VERSIONS["latest"] = AVAILABLE_VERSIONS["3.14"]
