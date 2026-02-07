@@ -3,7 +3,7 @@
 <img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/d929d0dc-f63a-4dcf-b16c-7f457fb5d7f9" />
 
 ![Downloads](https://static.pepy.tech/badge/pyportable)
-![Python Version](https://img.shields.io/pypi/pyversions/pyportable)
+![PyPI Version](https://img.shields.io/pypi/v/pyportable)
 ![License](https://img.shields.io/github/license/DaavidSiilva/PyPortable)
 
 Uma ferramenta CLI e biblioteca Python para baixar, configurar e gerenciar instalações do Python Portable (Embeddable) automaticamente. Ideal para criar ambientes Python isolados para distribuição sem necessidade de instalação administrativa.
